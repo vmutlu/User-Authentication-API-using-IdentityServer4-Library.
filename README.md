@@ -1,0 +1,2 @@
+User Authenticated Using IdentityServer4 Library. Required information is grant_type, username, password, client_id, client_secret, scope etc. After entering, a request is sent to the API and the values access_token and reflesh_token are returned if the registered user is. The lifetime of the token is 1 hour (3600).
+After 1 hour, the request is sent again with reflesh token if requested. The information to be entered here is grant_type, client_id, client_secret, refresh_token. A new access_token and refresh_token values can be obtained by using the Refresh token.
